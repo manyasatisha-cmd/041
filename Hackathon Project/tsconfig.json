@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM"],
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*",
+    "src/pages/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "supabase",
+    "supabase/**/*",
+    "supabase/functions",
+    "supabase/functions/**/*",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}
